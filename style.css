@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#111;
+    color:white;
+    text-align:center;
+}
+
+.container{
+    padding:20px;
+}
+
+h1{
+    margin-bottom:20px;
+    color:#00d4ff;
+}
+
+video{
+    background:black;
+    border-radius:15px;
+}
+
+.controls{
+    margin-top:15px;
+}
+
+button{
+    padding:10px 15px;
+    margin:5px;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+}
+
+button:hover{
+    transform:scale(1.05);
+}
+video{
+    width:900px;
+    height:500px;
+    background:black;
+    border:2px solid white;
+}
